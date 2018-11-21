@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/leyou?characterEncoding=UTF-8
     username: root
-    password: 5456
+    password: 54567
     hikari:
       maximum-pool-size: 30
       minimum-idle: 10
