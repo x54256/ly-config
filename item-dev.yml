@@ -4,7 +4,7 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/leyou?characterEncoding=UTF-8
+    url: jdbc:mysql://192.168.2.90:3306/leyou?characterEncoding=UTF-8
     username: root
     password: 5456
     driver-class-name: com.mysql.jdbc.Driver
@@ -18,7 +18,7 @@ spring:
   jackson:
       default-property-inclusion: non_null  # jackson返回的数据为null，不返回
   rabbitmq:
-      host: 127.0.0.1
+      host: 192.168.2.90
       username: leyou
       password: leyou
       virtual-host: /leyou
